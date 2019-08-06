@@ -14,6 +14,7 @@ gem "relaxo", "~> 1.3"
 gem "relaxo-model", "~> 0.15.0"
 
 gem 'rugged', git: 'git://github.com/libgit2/rugged.git', submodules: true
+gem "tty-color"
 
 gem "trenni-formatters", "~> 2.4"
 
@@ -40,11 +41,11 @@ group :development do
 	# For `rake server`:
 	gem "guard-falcon", require: false
 	gem 'guard-rspec', require: false
-	
+
 	# For `rake console`:
 	gem "pry"
 	gem "rack-test"
-	
+
 	# For `rspec` testing:
 	gem "rspec"
 end
